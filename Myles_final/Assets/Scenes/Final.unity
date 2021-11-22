@@ -20165,7 +20165,7 @@ GameObject:
   - component: {fileID: 1519784077}
   - component: {fileID: 1519784076}
   m_Layer: 5
-  m_Name: Main
+  m_Name: screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
