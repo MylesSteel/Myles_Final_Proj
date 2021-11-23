@@ -24,11 +24,12 @@ public class SwitcHands : MonoBehaviour
 
     public void SwapHands()
     {
+        Debug.Log(grabInteractable.selectingInteractor.name);
         if (grabInteractable.selectingInteractor.name == leftHandInteractor.name)
         {
             grabInteractable.attachTransform = leftHandAttached;
         }
-        if (grabInteractable.selectingInteractor.name == rightHandAttached.name)
+        if (grabInteractable.selectingInteractor.name == rightHandInteractor.name)
         {
             grabInteractable.attachTransform = rightHandAttached;
         }
