@@ -12,13 +12,9 @@ public class FireCannon : MonoBehaviour
     [SerializeField]
     Transform spawnPoint;                        //spawn location for bullet at end of gun
     // public ParticleSystem muzzleFlash;
-    void Awake()
-    {
-        grabInteractable = GetComponent<XRGrabInteractable>();
-        grabInteractable.activated.AddListener(ShootBullet);         //calls ShootBullet method when grabInteractable is activated. 
-    }
+    
 
-    private void ShootBullet(ActivateEventArgs arg0)
+    public void ShootBullet()
     {
         Instantiate(bulletPrefab, spawnPoint.transform.position, Quaternion.identity);
         
