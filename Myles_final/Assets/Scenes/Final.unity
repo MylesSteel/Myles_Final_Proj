@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 9478121}
   - component: {fileID: 9478120}
   - component: {fileID: 9478119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (5)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 143581766}
   - component: {fileID: 143581765}
   - component: {fileID: 143581764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (8)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -5359,7 +5359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279961003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5774,7 +5774,7 @@ GameObject:
   - component: {fileID: 355752295}
   - component: {fileID: 355752294}
   - component: {fileID: 355752293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (6)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -12263,7 +12263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447751693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13550,7 +13550,7 @@ GameObject:
   - component: {fileID: 640421762}
   - component: {fileID: 640421761}
   - component: {fileID: 640421760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (2)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -14944,7 +14944,7 @@ GameObject:
   - component: {fileID: 786411091}
   - component: {fileID: 786411090}
   - component: {fileID: 786411089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (9)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -17405,7 +17405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 978815211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17440,7 +17440,7 @@ GameObject:
   - component: {fileID: 997948994}
   - component: {fileID: 997948993}
   - component: {fileID: 997948992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (3)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -18049,7 +18049,7 @@ GameObject:
   - component: {fileID: 1103074536}
   - component: {fileID: 1103074535}
   - component: {fileID: 1103074534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (7)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -19033,7 +19033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337372076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19406,7 +19406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401888561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33032,7 +33032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638208772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33705,7 +33705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713814003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33835,7 +33835,7 @@ GameObject:
   - component: {fileID: 1733021263}
   - component: {fileID: 1733021262}
   - component: {fileID: 1733021261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -34055,7 +34055,7 @@ GameObject:
   - component: {fileID: 1762445091}
   - component: {fileID: 1762445090}
   - component: {fileID: 1762445089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (4)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
@@ -34553,7 +34553,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1783724795}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 21.79647
   m_Direction: 1
@@ -37468,7 +37468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1899551571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38929,7 +38929,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1975652841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41169,7 +41169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2121080218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41204,7 +41204,7 @@ GameObject:
   - component: {fileID: 2135910046}
   - component: {fileID: 2135910045}
   - component: {fileID: 2135910044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon Ball (1)
   m_TagString: cannon ball load
   m_Icon: {fileID: 0}
