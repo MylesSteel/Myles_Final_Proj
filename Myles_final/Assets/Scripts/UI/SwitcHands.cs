@@ -24,7 +24,7 @@ public class SwitcHands : MonoBehaviour
 
     public void SwapHands()
     {
-        Debug.Log(grabInteractable.selectingInteractor.name);
+       
         if (grabInteractable.selectingInteractor.name == leftHandInteractor.name)
         {
             grabInteractable.attachTransform = leftHandAttached;
