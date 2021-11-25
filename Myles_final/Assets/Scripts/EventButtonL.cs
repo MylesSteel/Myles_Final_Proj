@@ -16,8 +16,10 @@ public class EventButtonL : MonoBehaviour
     private bool isPressed;                           //used to track if button has been pressed so it doesnt update each frame.
     private Vector3 startPos;                         //a position used to messure how far the button has moved from this point.
     private ConfigurableJoint joint;                  //joint used for button object, this refrences is for the liniar limit used on the joint.
-    private XRSocketInteractor socketInteractor;     //* to be used later with socket collider script
+    [SerializeField]
+    public Animator leftDestroyTrig = null;
     public UnityEvent onPressed, onRealeased;
+
 
 
 
@@ -47,6 +49,7 @@ public class EventButtonL : MonoBehaviour
         onPressed.Invoke();                        //onPress button begin the populated field 
         Debug.Log("pressed");
         myLoaded.isLoaded = false;
+        leftDestroyTrig.Play("Left Destroy", 0, 0.0f);
     }
 
     private void Released()                               //same as pressed but at low end of threshold.

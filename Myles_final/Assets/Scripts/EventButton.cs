@@ -16,12 +16,14 @@ public class EventButton : MonoBehaviour
     private bool isPressed;                           //used to track if button has been pressed so it doesnt update each frame.
     private Vector3 startPos;                         //a position used to messure how far the button has moved from this point.
     private ConfigurableJoint joint;                  //joint used for button object, this refrences is for the liniar limit used on the joint.
-    [SerializeField]
-    private XRSocketInteractor socketInteractor;     //* to be used later with socket collider script
+    [SerializeField] 
+    public Animator rightDestroyTrig = null;
     public UnityEvent onPressed, onRealeased;
-   
-    
-   
+  
+
+
+
+
     void Start()
     {
         startPos = transform.localPosition;                    //.localposition is used to find the parent transform. that was it is scaled relitive to its parent.
@@ -48,6 +50,7 @@ public class EventButton : MonoBehaviour
         onPressed.Invoke();                        //onPress button begin the populated field 
         Debug.Log("pressed");
         myLoaded.isLoaded = false;
+        rightDestroyTrig.Play("Right Destroy", 0, 0.0f);
     }
 
     private void Released()                               //same as pressed but at low end of threshold.

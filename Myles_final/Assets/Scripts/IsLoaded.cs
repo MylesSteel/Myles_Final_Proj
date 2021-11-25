@@ -14,7 +14,7 @@ public class IsLoaded : MonoBehaviour
         {
             isLoaded = true;
             door.Play("Close Door", 0, 0.0f);
-
+            
         }
     }
 
