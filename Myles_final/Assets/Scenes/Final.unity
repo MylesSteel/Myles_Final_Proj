@@ -34536,7 +34536,6 @@ GameObject:
   - component: {fileID: 1783724800}
   - component: {fileID: 1783724802}
   - component: {fileID: 1783724804}
-  - component: {fileID: 1783724803}
   m_Layer: 2
   m_Name: wheel
   m_TagString: Untagged
@@ -34775,18 +34774,6 @@ MonoBehaviour:
   rightHandAttached: {fileID: 685716193}
   leftHandInteractor: {fileID: 426078757}
   rightHandInteractor: {fileID: 368966273}
---- !u!114 &1783724803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783724795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3d4b430645a7594fb606021e1a40d09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!153 &1783724804
 ConfigurableJoint:
   m_ObjectHideFlags: 0
