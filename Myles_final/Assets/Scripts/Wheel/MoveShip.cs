@@ -5,7 +5,10 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit; 
 
 public class MoveShip : MonoBehaviour
-{
+{   [SerializeField]
+    Rigidbody shipRbController;
+    [SerializeField]
+    float speed = 5f;
     [SerializeField] Transform wheel;  //gameobject that is rotated for values
     [SerializeField] private int snapRotationAmount = 10;   //increments the dummy hands will move at
     [SerializeField] private GameObject rightHandModel;     //dummy hand that attaches to wheel.    
@@ -20,7 +23,7 @@ public class MoveShip : MonoBehaviour
     public float GetInteractorRotation() => interactor.GetComponent<Transform>().eulerAngles.y; 
     private XRGrabInteractable grabInteractor => GetComponent <XRGrabInteractable>();    //xr toolkit grab component. find rotation value.
 
-    private void OnEnable()          //when using select trigger to grab, enable GrabbedBy/GrabEnd functions.
+    private void OnEnable()          //when using select trigger to grab, enable GrabbedBy/GrabEnd functions.  (listens for grab interactable)
     {
         grabInteractor.selectEntered.AddListener(GrabbedBy);
         grabInteractor.selectExited.AddListener(GrabEnd);
@@ -67,6 +70,8 @@ public class MoveShip : MonoBehaviour
             var rotationAngle = GetInteractorRotation();  //gets the current rotation angle of controller
             GetRotationDistance(rotationAngle);
         }
+        RotateWheelLeft();
+        RotateWheelRight();
     }
     
     private void GetRotationDistance(float currentAngle)
@@ -133,21 +138,27 @@ public class MoveShip : MonoBehaviour
     } 
     private float CheckAngle(float currentAngle, float startAngle) => (360f - currentAngle) + startAngle;
 
+  
+
     private void RotateWheelRight()
     {
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
-                                             wheel.localEulerAngles.z,
-                                             wheel.localEulerAngles.y + snapRotationAmount);
+                                             wheel.localEulerAngles.y,
+                                             wheel.localEulerAngles.z + snapRotationAmount);
         if (TryGetComponent<TurnInterface>(out TurnInterface dial))
             dial.WheelTurnedRight(wheel.localEulerAngles.y);
+        
+        shipRbController.AddForce(Vector3.right * (speed), ForceMode.Force);
     }
 
    private void RotateWheelLeft()
    {
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
-                                             wheel.localEulerAngles.z,
-                                             wheel.localEulerAngles.y - snapRotationAmount);
+                                             wheel.localEulerAngles.y,
+                                             wheel.localEulerAngles.z - snapRotationAmount);
         if (TryGetComponent<TurnInterface>(out TurnInterface dial))
             dial.WheelTurnedLeft(wheel.localEulerAngles.y);
+        
+        shipRbController.AddForce(Vector3.left * (speed), ForceMode.Force);
     }
 }
