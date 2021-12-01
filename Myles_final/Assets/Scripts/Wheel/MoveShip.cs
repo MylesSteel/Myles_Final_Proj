@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class MoveShip : MonoBehaviour
 {
     [SerializeField] Transform wheel;  //gameobject that is rotated for values
-    [SerializeField] private int snapRotationAmount = 1;   //increments the dummy hands will move at
+    [SerializeField] private int snapRotationAmount = 10;   //increments the dummy hands will move at
     [SerializeField] private GameObject rightHandModel;     //dummy hand that attaches to wheel.    
     [SerializeField] private GameObject leftHandModel;
     [SerializeField] bool useDummyHands;
@@ -139,7 +139,7 @@ public class MoveShip : MonoBehaviour
                                              wheel.localEulerAngles.z,
                                              wheel.localEulerAngles.y + snapRotationAmount);
         if (TryGetComponent<TurnInterface>(out TurnInterface dial))
-            dial.WheelTurned(wheel.localEulerAngles.y);
+            dial.WheelTurnedRight(wheel.localEulerAngles.y);
     }
 
    private void RotateWheelLeft()
@@ -148,6 +148,6 @@ public class MoveShip : MonoBehaviour
                                              wheel.localEulerAngles.z,
                                              wheel.localEulerAngles.y - snapRotationAmount);
         if (TryGetComponent<TurnInterface>(out TurnInterface dial))
-            dial.WheelTurned(wheel.localEulerAngles.y);
+            dial.WheelTurnedLeft(wheel.localEulerAngles.y);
     }
 }

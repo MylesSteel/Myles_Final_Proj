@@ -1,4 +1,5 @@
 public interface TurnInterface
 {
-    void WheelTurned(float dialvalue);
+    void WheelTurnedRight(float dialvalue);
+    void WheelTurnedLeft(float dialvalue);
 }
