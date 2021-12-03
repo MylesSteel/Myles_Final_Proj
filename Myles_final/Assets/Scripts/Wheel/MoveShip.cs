@@ -66,8 +66,8 @@ public class MoveShip : MonoBehaviour
 
     private void Update()       //in update so it can calculate value of rotation on each frame when shouldGetHandRotation bool is = true.
     { 
-        RotateWheelLeft();         //trying to call the functions on every frame to get constant feed back.
-        RotateWheelRight();
+      //  RotateWheelLeft();         //trying to call the functions on every frame to get constant feed back.
+       // RotateWheelRight();
         if (shouldGetHandRotation)
         {
             var rotationAngle = GetInteractorRotation();  //gets the current rotation angle of controller
@@ -144,6 +144,7 @@ public class MoveShip : MonoBehaviour
 
     private void RotateWheelRight()
     {
+        turnWheel.Play();
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z + snapRotationAmount);
@@ -151,11 +152,12 @@ public class MoveShip : MonoBehaviour
             dial.WheelTurnedRight(wheel.localEulerAngles.y);
         
         shipRbController.AddForce(Vector3.right * (speed), ForceMode.Force);
-        turnWheel.Play();
+        
     }
 
    private void RotateWheelLeft()
    {
+        turnWheel.Play();
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z - snapRotationAmount);
@@ -163,6 +165,6 @@ public class MoveShip : MonoBehaviour
             dial.WheelTurnedLeft(wheel.localEulerAngles.y);
         
         shipRbController.AddForce(Vector3.left * (speed), ForceMode.Force);
-        turnWheel.Play();
+        
     }
 }

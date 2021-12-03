@@ -11,8 +11,11 @@ public class FireCannon : MonoBehaviour
     GameObject bulletPrefab;                     //game object for bullet
     [SerializeField]
     Transform spawnPoint;                        //spawn location for bullet at end of gun
-    // public ParticleSystem muzzleFlash;
-   
+                                                 // public ParticleSystem muzzleFlash;
+    public void Delay()
+    {
+        Invoke("ShootBullet", 4);
+    }
     public void ShootBullet()
     {
         Instantiate(bulletPrefab, spawnPoint.transform.position, Quaternion.identity);
