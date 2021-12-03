@@ -15,6 +15,7 @@ public class MoveShip : MonoBehaviour
     [SerializeField] private GameObject leftHandModel;
     [SerializeField] bool useDummyHands;
     [SerializeField] private float angleTolerance;    //hand rotation value for wheel
+    [SerializeField] AudioSource turnWheel;
 
     private XRBaseInteractor interactor;
     private float startAngle;     //start angle when grabbed 
@@ -64,14 +65,15 @@ public class MoveShip : MonoBehaviour
     }
 
     private void Update()       //in update so it can calculate value of rotation on each frame when shouldGetHandRotation bool is = true.
-    {
+    { 
+        RotateWheelLeft();         //trying to call the functions on every frame to get constant feed back.
+        RotateWheelRight();
         if (shouldGetHandRotation)
         {
             var rotationAngle = GetInteractorRotation();  //gets the current rotation angle of controller
             GetRotationDistance(rotationAngle);
         }
-        RotateWheelLeft();
-        RotateWheelRight();
+       
     }
     
     private void GetRotationDistance(float currentAngle)
@@ -86,7 +88,7 @@ public class MoveShip : MonoBehaviour
                 {
                 float angleCheck;
 
-                    if (startAngle < currentAngle)           //used to tell if the wheel has gone right or left from the starting angle.
+                    if (startAngle < currentAngle)           //used to tell if the wheel has gone right or left from the starting angle. if less than start angle it is turning + or clockwise and therfor right.
                     {
                         angleCheck = CheckAngle(currentAngle, startAngle);
 
@@ -99,7 +101,7 @@ public class MoveShip : MonoBehaviour
                             startAngle = currentAngle;
                         }
                     }
-                    else if (startAngle > currentAngle)
+                    else if (startAngle > currentAngle)     // rotation is - or counterclockwise so rotation is left.
                     {
                         angleCheck = CheckAngle(currentAngle, startAngle);
 
@@ -149,6 +151,7 @@ public class MoveShip : MonoBehaviour
             dial.WheelTurnedRight(wheel.localEulerAngles.y);
         
         shipRbController.AddForce(Vector3.right * (speed), ForceMode.Force);
+        turnWheel.Play();
     }
 
    private void RotateWheelLeft()
@@ -160,5 +163,6 @@ public class MoveShip : MonoBehaviour
             dial.WheelTurnedLeft(wheel.localEulerAngles.y);
         
         shipRbController.AddForce(Vector3.left * (speed), ForceMode.Force);
+        turnWheel.Play();
     }
 }

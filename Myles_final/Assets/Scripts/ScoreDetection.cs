@@ -12,6 +12,7 @@ public class ScoreDetection : MonoBehaviour
     public TextMeshProUGUI scoreText;
     [SerializeField]
     public Animator enemyShip;
+    [SerializeField] AudioSource enemyBoom;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class ScoreDetection : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        enemyBoom.Play(); 
         AddPoint();
         DestroyEnemy();
         if (other.CompareTag("ScoreDetection"))

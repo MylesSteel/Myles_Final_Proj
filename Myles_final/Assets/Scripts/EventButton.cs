@@ -50,7 +50,7 @@ public class EventButton : MonoBehaviour
         onPressed.Invoke();                        //onPress button begin the populated field 
         Debug.Log("pressed");
         myLoaded.isLoaded = false;
-        rightDestroyTrig.Play("Right Destroy", 0, 0.0f);
+        rightDestroyTrig.Play("Left Destroy", 0, 0.0f);
     }
 
     private void Released()                               //same as pressed but at low end of threshold.

@@ -12,8 +12,7 @@ public class FireCannon : MonoBehaviour
     [SerializeField]
     Transform spawnPoint;                        //spawn location for bullet at end of gun
     // public ParticleSystem muzzleFlash;
-    
-
+   
     public void ShootBullet()
     {
         Instantiate(bulletPrefab, spawnPoint.transform.position, Quaternion.identity);
