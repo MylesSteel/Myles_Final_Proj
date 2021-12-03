@@ -24,7 +24,7 @@ public class MoveShip : MonoBehaviour
     public float GetInteractorRotation() => interactor.GetComponent<Transform>().eulerAngles.y; 
     private XRGrabInteractable grabInteractor => GetComponent <XRGrabInteractable>();    //xr toolkit grab component. find rotation value.
 
-    private void OnEnable()          //when using select trigger to grab, enable GrabbedBy/GrabEnd functions.  (listens for grab interactable)
+    private void OnEnable()          //when using select trigger to grab, enable GrabbedBy/GrabEnd functions.  (listens for grab interactable and assigning the function to select button)
     {
         grabInteractor.selectEntered.AddListener(GrabbedBy);
         grabInteractor.selectExited.AddListener(GrabEnd);
