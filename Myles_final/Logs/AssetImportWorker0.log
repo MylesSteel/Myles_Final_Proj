@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+S:/Myles_Final_Proj/Myles_final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61275
+Successfully changed project path to: S:/Myles_Final_Proj/Myles_final
+S:/Myles_Final_Proj/Myles_final
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.04 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.01 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Myles_Final_Proj/Myles_final/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   
+    VRAM:     12143 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001789 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.84 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.543 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.61 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in S:\Myles_Final_Proj\Myles_final\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in S:\Myles_Final_Proj\Myles_final\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.5 MB.
+System memory in use after: 156.8 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 3.787200 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.100700 ms MarkObjects: 2.024800 ms  DeleteObjects: 1.271400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a411fd12ef4b029ca04b9c73d806f4ac') in 0.270423 seconds
+  Import took 0.276147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.673525 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png
+  artifactKey: Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png using Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85817d3e6a411d194006358b93826870') in 0.026703 seconds
+  Import took 0.032430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007601 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png
+  artifactKey: Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png using Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85817d3e6a411d194006358b93826870') in 0.005579 seconds
+  Import took 0.010634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.184658 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png
+  artifactKey: Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png using Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bce7db60b449c4a1041572b5042573') in 0.011204 seconds
+  Import took 0.017296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.956283 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435130195ab74144b1c2ecd11b022f42') in 0.056314 seconds
+  Import took 0.062623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435130195ab74144b1c2ecd11b022f42') in 0.027456 seconds
+  Import took 0.032673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.264570 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb59f815a7e96021e095ae0ef2b4348') in 0.038241 seconds
+  Import took 0.044670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb59f815a7e96021e095ae0ef2b4348') in 0.054459 seconds
+  Import took 0.060270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.423818 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png
+  artifactKey: Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png using Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24430862d3e50adc8be5947fe2a98ff3') in 0.009139 seconds
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_right.jpg
+  artifactKey: Guid(98149bf1afa5ed242ab9d0f79f284bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_right.jpg using Guid(98149bf1afa5ed242ab9d0f79f284bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edd96070b82cfb7bfdf7b620f1f5293') in 0.104474 seconds
+  Import took 0.111372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_Normal.png
+  artifactKey: Guid(dcc9b581909b8384d9ba4214549130ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_Normal.png using Guid(dcc9b581909b8384d9ba4214549130ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45befde7db5a26cfae1a28c435c090a') in 0.012271 seconds
+  Import took 0.017327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Scenes/Final/Lightmap-1_comp_dir.png
+  artifactKey: Guid(11efc67a1aa13b84eaab3f7fe3a5cbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-1_comp_dir.png using Guid(11efc67a1aa13b84eaab3f7fe3a5cbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53818ed0ed3fb4d85d71d4e360496afc') in 0.014916 seconds
+  Import took 0.020841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Scenes/Final/Lightmap-3_comp_light.exr
+  artifactKey: Guid(d2349d110e22ac944b7d7957dbd3cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-3_comp_light.exr using Guid(d2349d110e22ac944b7d7957dbd3cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459091e390b440d991d2217b57aca323') in 0.019820 seconds
+  Import took 0.025442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_BaseMap.png
+  artifactKey: Guid(0dee9eacb3d66fb4d857bd8d208db4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_BaseMap.png using Guid(0dee9eacb3d66fb4d857bd8d208db4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d08b1c60951f04fadb892c70e78858') in 0.009488 seconds
+  Import took 0.015395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/Final/Lightmap-4_comp_dir.png
+  artifactKey: Guid(8f73d0819c473de40afb1e440bbeef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-4_comp_dir.png using Guid(8f73d0819c473de40afb1e440bbeef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a551e3b5b4b8f0364b9b50a74f230e04') in 0.014745 seconds
+  Import took 0.020065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_front.jpg
+  artifactKey: Guid(a847450a9d80a2d41ba0ff42d4ff17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_front.jpg using Guid(a847450a9d80a2d41ba0ff42d4ff17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd853143d95f57fc8003f3ac3cc9fe1f') in 0.042398 seconds
+  Import took 0.048425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_back.jpg
+  artifactKey: Guid(d7f68fe05e1a74346aab885b80d462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_back.jpg using Guid(d7f68fe05e1a74346aab885b80d462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4ce09ad44f8893453956bcbfee7850') in 0.043605 seconds
+  Import took 0.049979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Scenes/Final/Lightmap-5_comp_dir.png
+  artifactKey: Guid(8fb4047b8c57c0c4680678563edf484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-5_comp_dir.png using Guid(8fb4047b8c57c0c4680678563edf484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a284a9a8b19720c8a060a718e6873e65') in 0.014640 seconds
+  Import took 0.020683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_back.jpg
+  artifactKey: Guid(d7f68fe05e1a74346aab885b80d462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_back.jpg using Guid(d7f68fe05e1a74346aab885b80d462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4ce09ad44f8893453956bcbfee7850') in 0.030887 seconds
+  Import took 0.036733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/Final/Lightmap-3_comp_dir.png
+  artifactKey: Guid(7dcad520f4165874182932294f13483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-3_comp_dir.png using Guid(7dcad520f4165874182932294f13483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207b5c1bf190bbba5a5b5c96696ace06') in 0.017494 seconds
+  Import took 0.023465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_MaskMap.png
+  artifactKey: Guid(47328fe8a7fe3584580f2d5106b28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_MaskMap.png using Guid(47328fe8a7fe3584580f2d5106b28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec4988891e710c72765289340ad5c38') in 0.009249 seconds
+  Import took 0.014565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_bottom.jpg
+  artifactKey: Guid(f9c65570ccf5e6c4ca2c22d4eed72b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_bottom.jpg using Guid(f9c65570ccf5e6c4ca2c22d4eed72b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4d55e0ff59efb69f9ba71d18fbcf56') in 0.046668 seconds
+  Import took 0.053498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Scenes/Final/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8e880ea47350bee4096ffe3450001234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-1_comp_light.exr using Guid(8e880ea47350bee4096ffe3450001234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a8cdf0d29dcd951252d63530d8cdd') in 0.017840 seconds
+  Import took 0.023286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_top.jpg
+  artifactKey: Guid(6d1cb5166ef40bf4c900c55adb5878fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_top.jpg using Guid(6d1cb5166ef40bf4c900c55adb5878fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18247a5dd9f68029604acc4146a5edb') in 0.046654 seconds
+  Import took 0.052575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/Final/Lightmap-4_comp_light.exr
+  artifactKey: Guid(8ed1204636b68d242a759ee122238fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-4_comp_light.exr using Guid(8ed1204636b68d242a759ee122238fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce800b434b328880f5818c65edb47d96') in 0.016294 seconds
+  Import took 0.021998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Scenes/Final/Lightmap-2_comp_dir.png
+  artifactKey: Guid(7aa77ca94510c3347be3472e831af524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-2_comp_dir.png using Guid(7aa77ca94510c3347be3472e831af524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0244076c122f36fd9e1c1e61c658d4') in 0.017478 seconds
+  Import took 0.023166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Scenes/Final/Lightmap-2_comp_light.exr
+  artifactKey: Guid(bd6e58e95d5eee046861521bccaabeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-2_comp_light.exr using Guid(bd6e58e95d5eee046861521bccaabeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8f7bcd6ab6099668ad443eb3904f36') in 0.017046 seconds
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_top.jpg
+  artifactKey: Guid(c9faeaed75a91fa4ca2eef00ae9d2b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_top.jpg using Guid(c9faeaed75a91fa4ca2eef00ae9d2b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b6010120f967a4e228b50d655e5c47') in 0.046070 seconds
+  Import took 0.051976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_bottom.jpg
+  artifactKey: Guid(1e992af6eb3ab2748b15a57d0301262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_bottom.jpg using Guid(1e992af6eb3ab2748b15a57d0301262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa29058c1daa0210d81fde53b4224b66') in 0.045229 seconds
+  Import took 0.050708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_back.jpg
+  artifactKey: Guid(c25f0c9603158e74fb68133e933d90dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_back.jpg using Guid(c25f0c9603158e74fb68133e933d90dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe9c8e0e393308e9e32e0b8e23895fc') in 0.046501 seconds
+  Import took 0.053239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png
+  artifactKey: Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png using Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fcbc5f04b00f145caee1c9ea41f9eb') in 0.010223 seconds
+  Import took 0.015283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png
+  artifactKey: Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png using Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88f508d3288c5bb3298e8e103dfa64') in 0.008708 seconds
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_front.jpg
+  artifactKey: Guid(41890b42a7038c1439ecbb16a441c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_front.jpg using Guid(41890b42a7038c1439ecbb16a441c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f6371fc3d99ae1db5b88a5b3511d45') in 0.045968 seconds
+  Import took 0.051971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_MaskMap.png
+  artifactKey: Guid(a40cad9e53e618644a5bbcba1a3ce0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_MaskMap.png using Guid(a40cad9e53e618644a5bbcba1a3ce0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5241b2f3d487b8f80077399be671ea4') in 0.010026 seconds
+  Import took 0.015654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_left.jpg
+  artifactKey: Guid(4b190f4a692e52c44b4ebe5200f6c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures/RedYellowNebular_left.jpg using Guid(4b190f4a692e52c44b4ebe5200f6c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe4df877a25486107e92ed6fe911506') in 0.049190 seconds
+  Import took 0.054946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_left.jpg
+  artifactKey: Guid(98270623030e0db4aa849ea4c724eb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_left.jpg using Guid(98270623030e0db4aa849ea4c724eb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8207cc64df136d51f5b60d8a14b763d') in 0.044554 seconds
+  Import took 0.051122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Scenes/Final/Lightmap-0_comp_light.exr
+  artifactKey: Guid(e935dab014fc9bc489fa99bb44f9bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Final/Lightmap-0_comp_light.exr using Guid(e935dab014fc9bc489fa99bb44f9bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a8c6bc190522dfc581da7d4b3e821f') in 0.015787 seconds
+  Import took 0.021380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_right.jpg
+  artifactKey: Guid(75b5b836b65ce824786e043e80cafc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures/RedOrangeYellowNebular_right.jpg using Guid(75b5b836b65ce824786e043e80cafc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa59936856969604b115d9bf0660ee0') in 0.047380 seconds
+  Import took 0.053541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.920528 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af619a3502fc56ad71d945df67bbc6') in 0.030807 seconds
+  Import took 0.037321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004100 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af619a3502fc56ad71d945df67bbc6') in 0.020765 seconds
+  Import took 0.026522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.099198 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png
+  artifactKey: Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png using Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e155a7e619a19a3d7339ed7a5bd7876') in 0.010126 seconds
+  Import took 0.016296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.484047 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png
+  artifactKey: Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png using Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b730c77ebb4f68267ba2de33fa95d') in 0.034137 seconds
+  Import took 0.039572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.163291 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png
+  artifactKey: Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png using Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5021545673c057f5da98eb82407ed108') in 0.013544 seconds
+  Import took 0.019239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.133431 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png
+  artifactKey: Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png using Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad6008b2e30bd42804664a0fc23a32c') in 0.013580 seconds
+  Import took 0.019003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.024325 seconds.
+  path: Assets/Prefab/3D Models/Right cannon.fbx
+  artifactKey: Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Right cannon.fbx using Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210a4e715744bac8fafe0a9651ae349') in 0.074069 seconds
+  Import took 0.080468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.196338 seconds.
+  path: Assets/Prefab/3D Models/Right cannon.fbx
+  artifactKey: Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Right cannon.fbx using Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef493b7510029df54ccc0b7785fdccad') in 0.031848 seconds
+  Import took 0.037661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004119 seconds.
+  path: Assets/Prefab/3D Models/Right cannon.fbx
+  artifactKey: Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Right cannon.fbx using Guid(8499cf2349a1c3c4dbccf3f1969c6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef493b7510029df54ccc0b7785fdccad') in 0.026154 seconds
+  Import took 0.031532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 975.155602 seconds.
+  path: Assets/Prefab/3D Models/haul of ship.fbx
+  artifactKey: Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/haul of ship.fbx using Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c03a90e20e906117ad8d1486e76c5') in 0.025399 seconds
+  Import took 0.032051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: Assets/Prefab/3D Models/haul of ship.fbx
+  artifactKey: Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/haul of ship.fbx using Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c03a90e20e906117ad8d1486e76c5') in 0.022124 seconds
+  Import took 0.027531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.415560 seconds.
+  path: Assets/Prefab/3D Models/haul of ship.fbx
+  artifactKey: Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/haul of ship.fbx using Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb59699109860246ee9fdb447f00bf8') in 0.018741 seconds
+  Import took 0.024459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009514 seconds.
+  path: Assets/Prefab/3D Models/haul of ship.fbx
+  artifactKey: Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/haul of ship.fbx using Guid(ea6bb2c6a56548b4aacd188bd94ed58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb59699109860246ee9fdb447f00bf8') in 0.015951 seconds
+  Import took 0.021819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 834.024177 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48143150e35e672af5fbbf681cf80af') in 0.071952 seconds
+  Import took 0.078402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.094678 seconds.
+  path: Assets/Prefab/3D Models/left cannon.fbx
+  artifactKey: Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/left cannon.fbx using Guid(041a0b8286963cb4e82cbcf52dc4ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716adb0d29913e94ea341b6f480d4c6') in 0.044851 seconds
+  Import took 0.050967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.226391 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png
+  artifactKey: Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png using Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98ecd9d248cef1778760ab816a20d01') in 0.010778 seconds
+  Import took 0.016976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406592 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png
+  artifactKey: Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png using Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2b22c44e4893e2531bb5f6c151086') in 0.013067 seconds
+  Import took 0.018880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.258809 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_BaseMap.png
+  artifactKey: Guid(0dee9eacb3d66fb4d857bd8d208db4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_BaseMap.png using Guid(0dee9eacb3d66fb4d857bd8d208db4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cf899904cd3ba4f59286a169f3cacf') in 0.012619 seconds
+  Import took 0.018309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.667625 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures
+  artifactKey: Guid(7eff6e7ae77bf1444b2717e8e8fdbfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedYellowNebular_Textures using Guid(7eff6e7ae77bf1444b2717e8e8fdbfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4330a38c1223c5972a71d892108e34') in 0.007334 seconds
+  Import took 0.013383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.862599 seconds.
+  path: Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures
+  artifactKey: Guid(fe8c071d1f0c715418721d8209403481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky Box/3Skyboxes2/Skybox_RedOrangeYellowNebular_Textures using Guid(fe8c071d1f0c715418721d8209403481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989f4cc940d38afb3687a9baf02d8f70') in 0.007796 seconds
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.559831 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png
+  artifactKey: Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_BaseMap.png using Guid(1622891741ec6ef40a7e0fde6abf471c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2155800c1b39b2a084bb20c9f5fb406') in 0.010917 seconds
+  Import took 0.017392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_Normal.png
+  artifactKey: Guid(dcc9b581909b8384d9ba4214549130ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_Normal.png using Guid(dcc9b581909b8384d9ba4214549130ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07922612369e1c73df015d53a684e558') in 0.014053 seconds
+  Import took 0.019751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_MaskMap.png
+  artifactKey: Guid(47328fe8a7fe3584580f2d5106b28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_MaskMap.png using Guid(47328fe8a7fe3584580f2d5106b28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0dc1c99c831579d9003d345906b9af') in 0.013788 seconds
+  Import took 0.018236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png
+  artifactKey: Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_BANDS_MaskMap.png using Guid(56e5466fc44242e46b429dc3d5486b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0728fb3f0c3559c05e298029c31b43') in 0.019370 seconds
+  Import took 0.024950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png
+  artifactKey: Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_BaseMap.png using Guid(52106a6f22f6bf042b7a1327f0ce0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f714634a27efd5855508cf6d564f7395') in 0.013313 seconds
+  Import took 0.018024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png
+  artifactKey: Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png using Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b0b50773d3b17ba2ce559ba6fecf9c') in 0.015701 seconds
+  Import took 0.020936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_MaskMap.png
+  artifactKey: Guid(a40cad9e53e618644a5bbcba1a3ce0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_MaskMap.png using Guid(a40cad9e53e618644a5bbcba1a3ce0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee62c457281b9cc4eba0c5717f9a40') in 0.009616 seconds
+  Import took 0.014536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png
+  artifactKey: Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_gun tip_Normal.png using Guid(aa717d86bcd5b4f43880996179870679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ffe5bcb46b97a773004b151b273d54') in 0.008900 seconds
+  Import took 0.013926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.618419 seconds.
+  path: Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png
+  artifactKey: Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/left cannon_brass cannon_Normal.png using Guid(7d24cd047425aa746b972c9773fdc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f03da3e09429294714e031bcb82c376') in 0.016131 seconds
+  Import took 0.022151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5327.741660 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png
+  artifactKey: Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png using Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f440e61244fcf4979023c91d52628') in 0.013415 seconds
+  Import took 0.019670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009916 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png
+  artifactKey: Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png using Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f440e61244fcf4979023c91d52628') in 0.006889 seconds
+  Import took 0.012909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.660466 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_MaskMap.png
+  artifactKey: Guid(f3d7d3160135e104790e3f187a9b7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_MaskMap.png using Guid(f3d7d3160135e104790e3f187a9b7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2665915e34a6e1020b5568d7d20faef0') in 0.024899 seconds
+  Import took 0.032584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003138 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_MaskMap.png
+  artifactKey: Guid(f3d7d3160135e104790e3f187a9b7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_MaskMap.png using Guid(f3d7d3160135e104790e3f187a9b7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2665915e34a6e1020b5568d7d20faef0') in 0.017870 seconds
+  Import took 0.023021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.928435 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png
+  artifactKey: Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_Normal.png using Guid(ac00e641dacc5494fa29c7c4e4b81378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d90bd8bc81e415fa40a41b4d9f21f7b') in 0.011544 seconds
+  Import took 0.017999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1996.658702 seconds.
+  path: Assets/Prefab/3D Models/Chain FL.fbx
+  artifactKey: Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain FL.fbx using Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a046cbe8494d4f5edcb4562e3acf54') in 0.053552 seconds
+  Import took 0.060137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.016154 seconds.
+  path: Assets/Materials/Substance Painter/Chain FL_Material.004_MaskMap.png
+  artifactKey: Guid(2ab89156a5efe1646988498558d63726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/Chain FL_Material.004_MaskMap.png using Guid(2ab89156a5efe1646988498558d63726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a1ab2876c4ed63072677520327a9f') in 0.009474 seconds
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.107542 seconds.
+  path: Assets/Prefab/3D Models/Chain FL.fbx
+  artifactKey: Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain FL.fbx using Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee75ec93768faa71372facbcad3613a') in 0.019796 seconds
+  Import took 0.025828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002906 seconds.
+  path: Assets/Prefab/3D Models/Chain FL.fbx
+  artifactKey: Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain FL.fbx using Guid(f519e16760d88a741b3c4917af0d625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee75ec93768faa71372facbcad3613a') in 0.015118 seconds
+  Import took 0.019898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.393888 seconds.
+  path: Assets/Materials/Substance Painter/Chain FL_Material.004_BaseMap.png
+  artifactKey: Guid(be3b8b440cee98448a7aff3ce8d522fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/Chain FL_Material.004_BaseMap.png using Guid(be3b8b440cee98448a7aff3ce8d522fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda9baa25b2690d0df7873b344a1f7e2') in 0.012108 seconds
+  Import took 0.017440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials/Substance Painter/Chain FL_Material.004_Normal.png
+  artifactKey: Guid(1fbd2e72573f5a64ea5aba5b46766cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/Chain FL_Material.004_Normal.png using Guid(1fbd2e72573f5a64ea5aba5b46766cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f020013055bdee4e38cc90aa955edb7') in 0.014225 seconds
+  Import took 0.019533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Substance Painter/haul of ship_Ship_BaseMap.png
+  artifactKey: Guid(e704cb1a9da83404785cd81ba0535379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/haul of ship_Ship_BaseMap.png using Guid(e704cb1a9da83404785cd81ba0535379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178bf8cc9e48671961ed871d60500e2d') in 0.011112 seconds
+  Import took 0.016788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Materials/Substance Painter/Chain FL_Material.004_BaseMap.png
+  artifactKey: Guid(be3b8b440cee98448a7aff3ce8d522fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Substance Painter/Chain FL_Material.004_BaseMap.png using Guid(be3b8b440cee98448a7aff3ce8d522fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda9baa25b2690d0df7873b344a1f7e2') in 0.009168 seconds
+  Import took 0.013923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 703.949984 seconds.
+  path: Assets/Prefab/3D Models/Chain RR.fbx
+  artifactKey: Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain RR.fbx using Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589534ee5f989caf156feeed15bae80') in 0.135960 seconds
+  Import took 0.143907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.454989 seconds.
+  path: Assets/Prefab/3D Models/Chain RR.fbx
+  artifactKey: Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain RR.fbx using Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d54c49994544621595acc0d846a62ee') in 0.033689 seconds
+  Import took 0.039635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.785554 seconds.
+  path: Assets/Prefab/3D Models/Chain RR.fbx
+  artifactKey: Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain RR.fbx using Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baa4628ce12d8852155d49e196e3e38') in 0.055102 seconds
+  Import took 0.061292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.075987 seconds.
+  path: Assets/Prefab/3D Models/Chain RR.fbx
+  artifactKey: Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain RR.fbx using Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6100ffe262c66a76f50aeabc11b08') in 0.019740 seconds
+  Import took 0.025651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005169 seconds.
+  path: Assets/Prefab/3D Models/Chain RR.fbx
+  artifactKey: Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/Chain RR.fbx using Guid(38f36b97530bc574faade9c63483bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6100ffe262c66a76f50aeabc11b08') in 0.016420 seconds
+  Import took 0.021787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1425.073485 seconds.
+  path: Assets/Prefab/3D Models/gear.fbx
+  artifactKey: Guid(93b7f40ac45661c4d8ff4d6811f77c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/3D Models/gear.fbx using Guid(93b7f40ac45661c4d8ff4d6811f77c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13662edb87154c94f19ab23ab5249b6') in 0.035523 seconds
+  Import took 0.041776 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
