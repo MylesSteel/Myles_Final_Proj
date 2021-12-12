@@ -15,7 +15,7 @@ public class SlidingDoor : MonoBehaviour
         {
             if (!myLoaded.isLoaded)
             {
-                door.Play("Open Door", 0, 0.0f);
+                door.Play("door right open", 0, 0.0f);
                 doorSlide.Play();
             }
         }
@@ -27,7 +27,7 @@ public class SlidingDoor : MonoBehaviour
         {
             if (!myLoaded.isLoaded)
             {
-                door.Play("Close Door", 0, 0.0f);
+                door.Play("door right close", 0, 0.0f);
                 doorSlide.Play();
             }
 
