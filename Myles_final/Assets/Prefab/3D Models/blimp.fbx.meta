@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 1cd587dc7a3867b408bfaf21d799a8dc
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -3479178383244585967
+    second: blimp|cannon ball.009Action
+  - first:
+      74: -5734542458892682187
+    second: blimp|cannon ballAction
+  - first:
+      74: 1164987161167805828
+    second: blimp|CHAIN BACK Action
+  - first:
+      74: -3451828516208599235
+    second: blimp|CHAIN BACK Action.001
+  - first:
+      74: 2241193979862630714
+    second: blimp|CHAIN FRONTAction
+  - first:
+      74: -6397158043069424387
+    second: blimp|CHAIN FRONTAction.001
+  - first:
+      74: 5548016205853975874
+    second: blimp|Cube.001Action.003
+  - first:
+      74: -4686412283831148508
+    second: blimp|CubeAction.002
+  - first:
+      74: 3111662928608250685
+    second: blimp|CylinderAction.001
+  - first:
+      74: -6368168495869158686
+    second: blimp|CylinderAction.002
+  - first:
+      74: 5031276236377753032
+    second: blimp|CylinderAction.003
+  - first:
+      74: -8439035450179484149
+    second: blimp|CylinderAction.004
+  - first:
+      74: -419673890659585688
+    second: blimp|CylinderAction.005
+  - first:
+      74: 4465521175527641261
+    second: blimp|Door RAction.001
+  - first:
+      74: -3254988400474481926
+    second: blimp|Gear R 1Action.004
+  - first:
+      74: -7221928841932587746
+    second: blimp|Gear R 2Action.001
+  - first:
+      74: -4709316408359240196
+    second: blimp|Nautilus ArkAction.001
+  - first:
+      74: 3666057884365988638
+    second: blimp|Nautilus ArkAction.002
+  - first:
+      74: 7802453101091732984
+    second: blimp|Nautilus ArkAction.003
+  - first:
+      74: -3239054650287228341
+    second: blimp|Nautilus ArkAction.004
+  - first:
+      74: 1558435606107415232
+    second: blimp|Nautilus ArkAction.005
+  - first:
+      74: 4749170028850538127
+    second: blimp|Nautilus ArkAction.006
+  - first:
+      74: -1979088975103645329
+    second: blimp|Nautilus ArkAction.007
+  - first:
+      74: 2235271821314874986
+    second: blimp|Nautilus ArkAction.008
+  - first:
+      74: -4093540545120994181
+    second: blimp|Nautilus ArkAction.009
+  - first:
+      74: -5140996395283865305
+    second: blimp|Nautilus ArkAction.010
+  - first:
+      74: 8836256997586292239
+    second: blimp|Nautilus ArkAction.011
+  - first:
+      74: 2716980367383619315
+    second: blimp|Nautilus ArkAction.012
+  - first:
+      74: -2736640207388944082
+    second: blimp|Nautilus ArkAction.013
+  - first:
+      74: -376775900713649935
+    second: blimp|Nautilus ArkAction.014
+  - first:
+      74: 5266025637472481579
+    second: blimp|Nautilus ArkAction.015
+  - first:
+      74: 1617203866431763195
+    second: blimp|Nautilus ArkAction.016
+  - first:
+      74: -6402939629866749347
+    second: blimp|Nautilus ArkAction.017
+  - first:
+      74: 192352182183709668
+    second: blimp|Nautilus ArkAction.018
+  - first:
+      74: 4271410125846372253
+    second: blimp|PlaneAction.003
+  - first:
+      74: 3975096265989653664
+    second: blimp|Scale Ref GuyAction
+  - first:
+      74: 8503327457520453246
+    second: blimp|SphereAction.011
+  - first:
+      74: 8454227041129124559
+    second: blimp|SphereAction.033
+  - first:
+      74: 1156597805445709736
+    second: blimp|SphereAction.036
+  - first:
+      74: 139972482914019456
+    second: blimp|SphereAction.037
+  - first:
+      74: -2739143084981522923
+    second: blimp|SphereAction.038
+  - first:
+      74: -3103820927772406505
+    second: blimp|SphereAction.039
+  - first:
+      74: 777338346016333445
+    second: blimp|SphereAction.041
+  - first:
+      74: 8856712861328150914
+    second: blimp|SphereAction.043
+  - first:
+      74: 8529950703864103361
+    second: blimp|SphereAction.047
+  - first:
+      74: -8300957297180343548
+    second: blimp|SphereAction.048
+  - first:
+      74: 4852150630762699406
+    second: blimp|SphereAction.049
+  - first:
+      74: -2653093403209767766
+    second: blimp|SphereAction.051
+  - first:
+      74: -1122496084220869058
+    second: blimp|SphereAction.052
+  - first:
+      74: -28637699525200169
+    second: blimp|SphereAction.053
+  - first:
+      74: -1512147792478194310
+    second: blimp|SphereAction.059
+  - first:
+      74: 6967596724844754879
+    second: blimp|SphereAction.066
+  - first:
+      74: -7949416825293971759
+    second: blimp|SphereAction.094
+  - first:
+      74: -1646418747733206610
+    second: blimp|SphereAction.096
+  - first:
+      74: -5155739316819989786
+    second: blimp|wheel h 1Action
+  - first:
+      74: -26006610529614689
+    second: blimp|wheel h 2Action
+  - first:
+      74: 2415381645584088477
+    second: blimp|wheel h 3Action
+  - first:
+      74: -4460030621482695467
+    second: blimp|wheel h 4Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

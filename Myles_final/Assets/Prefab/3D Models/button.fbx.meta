@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 53925a19700459047a95b3a7d81075fc
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 7348146491146577760
+    second: button|cannon ball.009Action
+  - first:
+      74: -7517158550343342668
+    second: button|cannon ballAction
+  - first:
+      74: 91458969714736934
+    second: button|CHAIN BACK Action
+  - first:
+      74: -8369904538081923390
+    second: button|CHAIN BACK Action.001
+  - first:
+      74: -7663803435723741003
+    second: button|CHAIN FRONTAction
+  - first:
+      74: 2153689134051111132
+    second: button|CHAIN FRONTAction.001
+  - first:
+      74: 350959201084683920
+    second: button|Cube.001Action.003
+  - first:
+      74: 8183585148185872071
+    second: button|CubeAction.002
+  - first:
+      74: 8998240824998927045
+    second: button|CylinderAction.001
+  - first:
+      74: -2793623916493024466
+    second: button|CylinderAction.002
+  - first:
+      74: 5970435606559848314
+    second: button|CylinderAction.003
+  - first:
+      74: -8564177577981018435
+    second: button|CylinderAction.004
+  - first:
+      74: -8908622808558103059
+    second: button|CylinderAction.005
+  - first:
+      74: -9193859632149187628
+    second: button|CylinderAction.006
+  - first:
+      74: -5100111520501238604
+    second: button|CylinderAction.007
+  - first:
+      74: -3593404913442614104
+    second: button|CylinderAction.008
+  - first:
+      74: 1141603951258793876
+    second: button|Door RAction.001
+  - first:
+      74: 7611087378863696770
+    second: button|Gear R 1Action.004
+  - first:
+      74: -8023386511318962145
+    second: button|Gear R 2Action.001
+  - first:
+      74: -5571313065427990436
+    second: button|Nautilus ArkAction.001
+  - first:
+      74: -6628981660711540246
+    second: button|Nautilus ArkAction.002
+  - first:
+      74: -7302415614961811659
+    second: button|Nautilus ArkAction.003
+  - first:
+      74: -7866415587733062800
+    second: button|Nautilus ArkAction.004
+  - first:
+      74: -7523028721234360174
+    second: button|Nautilus ArkAction.005
+  - first:
+      74: -4094326585262580466
+    second: button|Nautilus ArkAction.006
+  - first:
+      74: 7815888611173441380
+    second: button|Nautilus ArkAction.007
+  - first:
+      74: 5998538118247088073
+    second: button|Nautilus ArkAction.008
+  - first:
+      74: 5712295085451155234
+    second: button|Nautilus ArkAction.009
+  - first:
+      74: 4235964408122589212
+    second: button|Nautilus ArkAction.010
+  - first:
+      74: 2328993586258053463
+    second: button|Nautilus ArkAction.011
+  - first:
+      74: -2158522995749925811
+    second: button|Nautilus ArkAction.012
+  - first:
+      74: 1847855451444017607
+    second: button|Nautilus ArkAction.013
+  - first:
+      74: 1503603692792945906
+    second: button|Nautilus ArkAction.014
+  - first:
+      74: -1584548908087858453
+    second: button|Nautilus ArkAction.015
+  - first:
+      74: 6440313997997939694
+    second: button|Nautilus ArkAction.016
+  - first:
+      74: -8280789863558754340
+    second: button|Nautilus ArkAction.017
+  - first:
+      74: 6272890388851128836
+    second: button|Nautilus ArkAction.018
+  - first:
+      74: 4372867855456912184
+    second: button|Nautilus ArkAction.019
+  - first:
+      74: -4624737865310208850
+    second: button|PlaneAction.003
+  - first:
+      74: 8215836081489348843
+    second: button|Scale Ref GuyAction
+  - first:
+      74: -847796110371781900
+    second: button|SphereAction.011
+  - first:
+      74: 1400719485653819624
+    second: button|SphereAction.033
+  - first:
+      74: 1173793045912388209
+    second: button|SphereAction.036
+  - first:
+      74: 2948944768804365923
+    second: button|SphereAction.037
+  - first:
+      74: 5838336906756973281
+    second: button|SphereAction.038
+  - first:
+      74: -3995419249125644856
+    second: button|SphereAction.039
+  - first:
+      74: -1023635847349770627
+    second: button|SphereAction.041
+  - first:
+      74: 8141468479533212400
+    second: button|SphereAction.043
+  - first:
+      74: 2021289695628798940
+    second: button|SphereAction.047
+  - first:
+      74: 3621835720788888278
+    second: button|SphereAction.048
+  - first:
+      74: 8229217436134966540
+    second: button|SphereAction.049
+  - first:
+      74: -721079742789840820
+    second: button|SphereAction.051
+  - first:
+      74: -4677041651911083261
+    second: button|SphereAction.052
+  - first:
+      74: -6365424501348211077
+    second: button|SphereAction.053
+  - first:
+      74: 7763935188846065604
+    second: button|SphereAction.059
+  - first:
+      74: 4585511483936886512
+    second: button|SphereAction.066
+  - first:
+      74: -6227982963460598989
+    second: button|SphereAction.094
+  - first:
+      74: 2129669910313307097
+    second: button|SphereAction.096
+  - first:
+      74: -4946010988603871366
+    second: button|wheel h 1Action
+  - first:
+      74: 7336844513389887445
+    second: button|wheel h 2Action
+  - first:
+      74: -7114004573307157884
+    second: button|wheel h 3Action
+  - first:
+      74: -1666292805320310043
+    second: button|wheel h 4Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

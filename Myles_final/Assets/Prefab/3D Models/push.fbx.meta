@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 6bceb3d69b9dbb541b5ea9d2085960d8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -766434739300303957
+    second: push|cannon ball.009Action
+  - first:
+      74: -7216175584208656936
+    second: push|cannon ballAction
+  - first:
+      74: -3157600416927502834
+    second: push|CHAIN BACK Action
+  - first:
+      74: -7065816015372552826
+    second: push|CHAIN BACK Action.001
+  - first:
+      74: 8677260516895529009
+    second: push|CHAIN FRONTAction
+  - first:
+      74: 7201689336394017886
+    second: push|CHAIN FRONTAction.001
+  - first:
+      74: 5286567739330581687
+    second: push|Cube.001Action.003
+  - first:
+      74: 2576367958424272857
+    second: push|CubeAction.002
+  - first:
+      74: -2223855963467180021
+    second: push|CylinderAction.001
+  - first:
+      74: 4224526391662221182
+    second: push|CylinderAction.002
+  - first:
+      74: 5983467993995400240
+    second: push|CylinderAction.003
+  - first:
+      74: 213493984762273018
+    second: push|CylinderAction.004
+  - first:
+      74: -4118152573554286751
+    second: push|CylinderAction.005
+  - first:
+      74: 6747785201462091811
+    second: push|CylinderAction.006
+  - first:
+      74: 5621377589764346492
+    second: push|CylinderAction.007
+  - first:
+      74: 5996300767075436725
+    second: push|CylinderAction.008
+  - first:
+      74: -7463943953954543339
+    second: push|Door RAction.001
+  - first:
+      74: -8547558028406850045
+    second: push|Gear R 1Action.004
+  - first:
+      74: -2841268137062989836
+    second: push|Gear R 2Action.001
+  - first:
+      74: -8719067812459165314
+    second: push|Nautilus ArkAction.001
+  - first:
+      74: -2092774612884165153
+    second: push|Nautilus ArkAction.002
+  - first:
+      74: -5310960602291229105
+    second: push|Nautilus ArkAction.003
+  - first:
+      74: 6137146121385922102
+    second: push|Nautilus ArkAction.004
+  - first:
+      74: 7073444735061123754
+    second: push|Nautilus ArkAction.005
+  - first:
+      74: 2596683801995314564
+    second: push|Nautilus ArkAction.006
+  - first:
+      74: 6510952985623630366
+    second: push|Nautilus ArkAction.007
+  - first:
+      74: 7743358589821978027
+    second: push|Nautilus ArkAction.008
+  - first:
+      74: 3350452302992889975
+    second: push|Nautilus ArkAction.009
+  - first:
+      74: -6868874016927580934
+    second: push|Nautilus ArkAction.010
+  - first:
+      74: 6837345260560634914
+    second: push|Nautilus ArkAction.011
+  - first:
+      74: 1729760544504431777
+    second: push|Nautilus ArkAction.012
+  - first:
+      74: 2620755512654987137
+    second: push|Nautilus ArkAction.013
+  - first:
+      74: 6469191268957143158
+    second: push|Nautilus ArkAction.014
+  - first:
+      74: -7003965852602964053
+    second: push|Nautilus ArkAction.015
+  - first:
+      74: 111756933800121990
+    second: push|Nautilus ArkAction.016
+  - first:
+      74: -7728888539339828442
+    second: push|Nautilus ArkAction.017
+  - first:
+      74: 1786266197135181304
+    second: push|Nautilus ArkAction.018
+  - first:
+      74: -438220947695948763
+    second: push|Nautilus ArkAction.019
+  - first:
+      74: 2797707094626962696
+    second: push|PlaneAction.003
+  - first:
+      74: 933950035444387370
+    second: push|Scale Ref GuyAction
+  - first:
+      74: 5800027152326462838
+    second: push|SphereAction.011
+  - first:
+      74: 4167893125449665045
+    second: push|SphereAction.033
+  - first:
+      74: -7720944776534439493
+    second: push|SphereAction.036
+  - first:
+      74: -4924291545751107847
+    second: push|SphereAction.037
+  - first:
+      74: -994750451846855822
+    second: push|SphereAction.038
+  - first:
+      74: -908237539195623750
+    second: push|SphereAction.039
+  - first:
+      74: 8856124892551244382
+    second: push|SphereAction.041
+  - first:
+      74: 4335087992986441794
+    second: push|SphereAction.043
+  - first:
+      74: 6265041020829773358
+    second: push|SphereAction.047
+  - first:
+      74: -4119680356616729628
+    second: push|SphereAction.048
+  - first:
+      74: 4182917880524060817
+    second: push|SphereAction.049
+  - first:
+      74: -9150643650140402736
+    second: push|SphereAction.051
+  - first:
+      74: 6499164177486566943
+    second: push|SphereAction.052
+  - first:
+      74: -6223927345932664694
+    second: push|SphereAction.053
+  - first:
+      74: -7886074618909383881
+    second: push|SphereAction.059
+  - first:
+      74: 138999821522470930
+    second: push|SphereAction.066
+  - first:
+      74: 4891464873380506812
+    second: push|SphereAction.094
+  - first:
+      74: -538389256704078770
+    second: push|SphereAction.096
+  - first:
+      74: -7788070523209672949
+    second: push|wheel h 1Action
+  - first:
+      74: -5785334461455618503
+    second: push|wheel h 2Action
+  - first:
+      74: 5736943071430675514
+    second: push|wheel h 3Action
+  - first:
+      74: 824727032697133446
+    second: push|wheel h 4Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

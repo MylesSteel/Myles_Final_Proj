@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 628fcd35cfc3ea945a477b04aeb79c55
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -6027999461609165989
+    second: Cube|cannon ball.009Action
+  - first:
+      74: 1937475232490061451
+    second: Cube|cannon ballAction
+  - first:
+      74: -3630478247949890825
+    second: Cube|CHAIN BACK Action
+  - first:
+      74: 1835660582382285464
+    second: Cube|CHAIN BACK Action.001
+  - first:
+      74: -7462707451043823647
+    second: Cube|CHAIN FRONTAction
+  - first:
+      74: -4322394752714242173
+    second: Cube|CHAIN FRONTAction.001
+  - first:
+      74: 3233625433242983922
+    second: Cube|Cube.001Action.003
+  - first:
+      74: -4473016424031684122
+    second: Cube|CubeAction.002
+  - first:
+      74: -1886024049379352917
+    second: Cube|CylinderAction.001
+  - first:
+      74: 4772035816788914525
+    second: Cube|CylinderAction.002
+  - first:
+      74: -4597959744006671720
+    second: Cube|CylinderAction.003
+  - first:
+      74: -6004377324890718311
+    second: Cube|CylinderAction.004
+  - first:
+      74: 3244033841105886472
+    second: Cube|CylinderAction.005
+  - first:
+      74: -3073803593141168616
+    second: Cube|Door RAction.001
+  - first:
+      74: 799542820265477031
+    second: Cube|Gear R 1Action.004
+  - first:
+      74: 2042898855874936674
+    second: Cube|Gear R 2Action.001
+  - first:
+      74: 7878230262988705161
+    second: Cube|Nautilus ArkAction.001
+  - first:
+      74: 2185738891494105260
+    second: Cube|Nautilus ArkAction.002
+  - first:
+      74: 63012894795536956
+    second: Cube|Nautilus ArkAction.003
+  - first:
+      74: -1523732747326378815
+    second: Cube|Nautilus ArkAction.004
+  - first:
+      74: 4275422805507789843
+    second: Cube|Nautilus ArkAction.005
+  - first:
+      74: -948261706815215552
+    second: Cube|Nautilus ArkAction.006
+  - first:
+      74: 7265201076485089617
+    second: Cube|Nautilus ArkAction.007
+  - first:
+      74: -80180834329899291
+    second: Cube|Nautilus ArkAction.008
+  - first:
+      74: -3731118496847292485
+    second: Cube|Nautilus ArkAction.009
+  - first:
+      74: 7835183154478751975
+    second: Cube|Nautilus ArkAction.010
+  - first:
+      74: 3425401273728975732
+    second: Cube|Nautilus ArkAction.011
+  - first:
+      74: -1669154761326481420
+    second: Cube|Nautilus ArkAction.012
+  - first:
+      74: -4696009527010680572
+    second: Cube|Nautilus ArkAction.013
+  - first:
+      74: -6931674045409062956
+    second: Cube|Nautilus ArkAction.014
+  - first:
+      74: -5772239929028329609
+    second: Cube|Nautilus ArkAction.015
+  - first:
+      74: -5202903700983828743
+    second: Cube|Nautilus ArkAction.016
+  - first:
+      74: -3201808843063135824
+    second: Cube|Nautilus ArkAction.017
+  - first:
+      74: 8712739465208817004
+    second: Cube|Nautilus ArkAction.018
+  - first:
+      74: 1567606062312136507
+    second: Cube|PlaneAction.003
+  - first:
+      74: -6512110563773508311
+    second: Cube|Scale Ref GuyAction
+  - first:
+      74: 2337231584674489701
+    second: Cube|SphereAction.011
+  - first:
+      74: 6361124718641493007
+    second: Cube|SphereAction.033
+  - first:
+      74: 6373749302046258205
+    second: Cube|SphereAction.036
+  - first:
+      74: 4152771305643899123
+    second: Cube|SphereAction.037
+  - first:
+      74: -9181749706744119058
+    second: Cube|SphereAction.038
+  - first:
+      74: 5830441794083700726
+    second: Cube|SphereAction.039
+  - first:
+      74: -4126521492386483986
+    second: Cube|SphereAction.041
+  - first:
+      74: 2477026787280352699
+    second: Cube|SphereAction.043
+  - first:
+      74: 3471860765561780175
+    second: Cube|SphereAction.047
+  - first:
+      74: 6060635881896803277
+    second: Cube|SphereAction.048
+  - first:
+      74: -5110373557999946662
+    second: Cube|SphereAction.049
+  - first:
+      74: -3498458129557580555
+    second: Cube|SphereAction.051
+  - first:
+      74: -7011025241187994725
+    second: Cube|SphereAction.052
+  - first:
+      74: 4029424486924766070
+    second: Cube|SphereAction.053
+  - first:
+      74: -1878662068064601238
+    second: Cube|SphereAction.059
+  - first:
+      74: -5780516192107588862
+    second: Cube|SphereAction.066
+  - first:
+      74: -6877027943141257189
+    second: Cube|SphereAction.094
+  - first:
+      74: -3853088392900207143
+    second: Cube|SphereAction.096
+  - first:
+      74: 968109812222495212
+    second: Cube|wheel h 1Action
+  - first:
+      74: -4585800530429607950
+    second: Cube|wheel h 2Action
+  - first:
+      74: 515146702153637252
+    second: Cube|wheel h 3Action
+  - first:
+      74: 1274036108030835377
+    second: Cube|wheel h 4Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

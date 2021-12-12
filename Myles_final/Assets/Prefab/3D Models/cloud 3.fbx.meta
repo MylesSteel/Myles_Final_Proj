@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: aa415a0ebe2e2cf42a1cc1a0073a9cc2
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1732425312597965581
+    second: Sphere.056|cannon ball.009Action
+  - first:
+      74: 724744214015011278
+    second: Sphere.056|cannon ballAction
+  - first:
+      74: 3010394133497045463
+    second: Sphere.056|CHAIN BACK Action
+  - first:
+      74: -237710220221645130
+    second: Sphere.056|CHAIN BACK Action.001
+  - first:
+      74: 1483061504012141783
+    second: Sphere.056|CHAIN FRONTAction
+  - first:
+      74: -260187033745663624
+    second: Sphere.056|CHAIN FRONTAction.001
+  - first:
+      74: 8993816254166970215
+    second: Sphere.056|Cube.001Action.003
+  - first:
+      74: -3022437572977226357
+    second: Sphere.056|CubeAction.002
+  - first:
+      74: -1696878259375423597
+    second: Sphere.056|CylinderAction.001
+  - first:
+      74: 8064553387124568708
+    second: Sphere.056|CylinderAction.002
+  - first:
+      74: 8751376783469181769
+    second: Sphere.056|CylinderAction.003
+  - first:
+      74: -489058389972333352
+    second: Sphere.056|CylinderAction.004
+  - first:
+      74: -7651643572201073514
+    second: Sphere.056|CylinderAction.005
+  - first:
+      74: -394518859090192806
+    second: Sphere.056|Door RAction.001
+  - first:
+      74: 3826825876741652927
+    second: Sphere.056|Gear R 1Action.004
+  - first:
+      74: 5997122233492514039
+    second: Sphere.056|Gear R 2Action.001
+  - first:
+      74: -6053147383468002139
+    second: Sphere.056|Nautilus ArkAction.001
+  - first:
+      74: 38351517131341951
+    second: Sphere.056|Nautilus ArkAction.002
+  - first:
+      74: -9111175736815435954
+    second: Sphere.056|Nautilus ArkAction.003
+  - first:
+      74: -7630968488495864741
+    second: Sphere.056|Nautilus ArkAction.004
+  - first:
+      74: -1613056107245613868
+    second: Sphere.056|Nautilus ArkAction.005
+  - first:
+      74: -8856816798656418721
+    second: Sphere.056|Nautilus ArkAction.006
+  - first:
+      74: 3590396922720208012
+    second: Sphere.056|Nautilus ArkAction.007
+  - first:
+      74: 4238916290943732970
+    second: Sphere.056|Nautilus ArkAction.008
+  - first:
+      74: -3014413968287679434
+    second: Sphere.056|Nautilus ArkAction.009
+  - first:
+      74: 2819137495720244425
+    second: Sphere.056|Nautilus ArkAction.010
+  - first:
+      74: 8758780433944242858
+    second: Sphere.056|Nautilus ArkAction.011
+  - first:
+      74: 2216681404130168845
+    second: Sphere.056|Nautilus ArkAction.012
+  - first:
+      74: -5954478338484420212
+    second: Sphere.056|Nautilus ArkAction.013
+  - first:
+      74: 7901997530711984055
+    second: Sphere.056|Nautilus ArkAction.014
+  - first:
+      74: 223565194026770096
+    second: Sphere.056|Nautilus ArkAction.015
+  - first:
+      74: 8222518516343896141
+    second: Sphere.056|Nautilus ArkAction.016
+  - first:
+      74: -3018958826174064136
+    second: Sphere.056|Nautilus ArkAction.017
+  - first:
+      74: -1488600174184809336
+    second: Sphere.056|Nautilus ArkAction.018
+  - first:
+      74: -3448098249604062898
+    second: Sphere.056|PlaneAction.003
+  - first:
+      74: 4896097943016382277
+    second: Sphere.056|Scale Ref GuyAction
+  - first:
+      74: 5692665692579236526
+    second: Sphere.056|SphereAction.011
+  - first:
+      74: 4838462396216795822
+    second: Sphere.056|SphereAction.033
+  - first:
+      74: -3952804160915401351
+    second: Sphere.056|SphereAction.036
+  - first:
+      74: -5829573754298552096
+    second: Sphere.056|SphereAction.037
+  - first:
+      74: -5733688718598860737
+    second: Sphere.056|SphereAction.038
+  - first:
+      74: 2076390827647016934
+    second: Sphere.056|SphereAction.039
+  - first:
+      74: -1361857218748148087
+    second: Sphere.056|SphereAction.041
+  - first:
+      74: 7014857910478562534
+    second: Sphere.056|SphereAction.043
+  - first:
+      74: -5523122638009408700
+    second: Sphere.056|SphereAction.047
+  - first:
+      74: -1367176509756464132
+    second: Sphere.056|SphereAction.048
+  - first:
+      74: 2783030683541785984
+    second: Sphere.056|SphereAction.049
+  - first:
+      74: 6380466096900856328
+    second: Sphere.056|SphereAction.051
+  - first:
+      74: 386106957209136424
+    second: Sphere.056|SphereAction.052
+  - first:
+      74: -1639825687806523540
+    second: Sphere.056|SphereAction.053
+  - first:
+      74: 864870356695760772
+    second: Sphere.056|SphereAction.059
+  - first:
+      74: 4035419516648839230
+    second: Sphere.056|SphereAction.066
+  - first:
+      74: 6374451702374054909
+    second: Sphere.056|SphereAction.094
+  - first:
+      74: -8402986737469373579
+    second: Sphere.056|SphereAction.096
+  - first:
+      74: -3606668750692019462
+    second: Sphere.056|wheel h 1Action
+  - first:
+      74: -3615608075773997627
+    second: Sphere.056|wheel h 2Action
+  - first:
+      74: 2391106362541548433
+    second: Sphere.056|wheel h 3Action
+  - first:
+      74: -5674432109681655571
+    second: Sphere.056|wheel h 4Action
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloud 3
+    second: {fileID: 2100000, guid: 6b6ce10dfee0f0842acb7ccb9fef33b5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

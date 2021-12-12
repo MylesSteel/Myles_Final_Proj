@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 9c98cf0efe7c17145af790bfb3614864
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 4342252403174666533
+    second: Cylinder|cannon ball.009Action
+  - first:
+      74: 3295150572269430495
+    second: Cylinder|cannon ballAction
+  - first:
+      74: 4016691235533414256
+    second: Cylinder|CHAIN BACK Action
+  - first:
+      74: -759935272332029171
+    second: Cylinder|CHAIN BACK Action.001
+  - first:
+      74: 8452337304840298676
+    second: Cylinder|CHAIN FRONTAction
+  - first:
+      74: -4418507796041299598
+    second: Cylinder|CHAIN FRONTAction.001
+  - first:
+      74: 8306070132839598521
+    second: Cylinder|Cube.001Action.003
+  - first:
+      74: 7526546001749127693
+    second: Cylinder|CubeAction.002
+  - first:
+      74: -88723805440604879
+    second: Cylinder|CylinderAction
+  - first:
+      74: -6242241587816052237
+    second: Cylinder|CylinderAction.001
+  - first:
+      74: 4372184618834679938
+    second: Cylinder|CylinderAction.002
+  - first:
+      74: -7186322825509058839
+    second: Cylinder|CylinderAction.003
+  - first:
+      74: 1437564002523176561
+    second: Cylinder|CylinderAction.004
+  - first:
+      74: -8505270113862177003
+    second: Cylinder|CylinderAction.005
+  - first:
+      74: 163907648544222146
+    second: Cylinder|CylinderAction.006
+  - first:
+      74: -5428862601367494453
+    second: Cylinder|CylinderAction.007
+  - first:
+      74: -7661444900925526822
+    second: Cylinder|CylinderAction.008
+  - first:
+      74: -7892903453978236142
+    second: Cylinder|Door RAction.001
+  - first:
+      74: 4953578238071670445
+    second: Cylinder|Gear R 1Action.004
+  - first:
+      74: 8050988431609279223
+    second: Cylinder|Gear R 2Action.001
+  - first:
+      74: -859723799082550996
+    second: Cylinder|Nautilus ArkAction.001
+  - first:
+      74: 7104576910964518143
+    second: Cylinder|Nautilus ArkAction.002
+  - first:
+      74: -5086227457565653059
+    second: Cylinder|Nautilus ArkAction.003
+  - first:
+      74: -6362151508018822396
+    second: Cylinder|Nautilus ArkAction.004
+  - first:
+      74: 6452927621199232111
+    second: Cylinder|Nautilus ArkAction.005
+  - first:
+      74: -6475856915552512500
+    second: Cylinder|Nautilus ArkAction.006
+  - first:
+      74: 898859153162178418
+    second: Cylinder|Nautilus ArkAction.007
+  - first:
+      74: 3464156326712116804
+    second: Cylinder|Nautilus ArkAction.008
+  - first:
+      74: -3689461808458521360
+    second: Cylinder|Nautilus ArkAction.009
+  - first:
+      74: -5633026229395527116
+    second: Cylinder|Nautilus ArkAction.010
+  - first:
+      74: 212380602917368806
+    second: Cylinder|Nautilus ArkAction.011
+  - first:
+      74: 2413315508996336995
+    second: Cylinder|Nautilus ArkAction.012
+  - first:
+      74: -7074728127134375999
+    second: Cylinder|Nautilus ArkAction.013
+  - first:
+      74: -3571152041660160856
+    second: Cylinder|Nautilus ArkAction.014
+  - first:
+      74: -8148474371870091463
+    second: Cylinder|Nautilus ArkAction.015
+  - first:
+      74: 1830009413886648619
+    second: Cylinder|Nautilus ArkAction.016
+  - first:
+      74: 8148152229977395186
+    second: Cylinder|Nautilus ArkAction.017
+  - first:
+      74: -7103860592611651838
+    second: Cylinder|Nautilus ArkAction.018
+  - first:
+      74: 5627203765836113317
+    second: Cylinder|Nautilus ArkAction.019
+  - first:
+      74: 1106476851195046095
+    second: Cylinder|PlaneAction.003
+  - first:
+      74: 7615476948677169615
+    second: Cylinder|Scale Ref GuyAction
+  - first:
+      74: -4650824405067311323
+    second: Cylinder|SphereAction.011
+  - first:
+      74: 5861691462855359102
+    second: Cylinder|SphereAction.033
+  - first:
+      74: -4534207755592014723
+    second: Cylinder|SphereAction.036
+  - first:
+      74: 2430788328170608008
+    second: Cylinder|SphereAction.037
+  - first:
+      74: -7175123651647180902
+    second: Cylinder|SphereAction.038
+  - first:
+      74: 2887941941352724061
+    second: Cylinder|SphereAction.039
+  - first:
+      74: 146456972445534021
+    second: Cylinder|SphereAction.041
+  - first:
+      74: -7904417870235436433
+    second: Cylinder|SphereAction.043
+  - first:
+      74: -8269138196203861503
+    second: Cylinder|SphereAction.047
+  - first:
+      74: -7948368969039431239
+    second: Cylinder|SphereAction.048
+  - first:
+      74: 376241479443874052
+    second: Cylinder|SphereAction.049
+  - first:
+      74: -1164210351348188001
+    second: Cylinder|SphereAction.051
+  - first:
+      74: -206582737658833486
+    second: Cylinder|SphereAction.052
+  - first:
+      74: -5188517636513430763
+    second: Cylinder|SphereAction.053
+  - first:
+      74: 2537676341173577331
+    second: Cylinder|SphereAction.059
+  - first:
+      74: 2093132479589552490
+    second: Cylinder|SphereAction.066
+  - first:
+      74: 6086745729607743957
+    second: Cylinder|SphereAction.094
+  - first:
+      74: -5291067537340883382
+    second: Cylinder|SphereAction.096
+  - first:
+      74: 6688740369911150903
+    second: Cylinder|wheel h 1Action
+  - first:
+      74: 3753430014490659466
+    second: Cylinder|wheel h 2Action
+  - first:
+      74: 1751291861614393669
+    second: Cylinder|wheel h 3Action
+  - first:
+      74: 1194285744604257064
+    second: Cylinder|wheel h 4Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
