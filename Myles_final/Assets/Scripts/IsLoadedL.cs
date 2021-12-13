@@ -17,7 +17,7 @@ public class IsLoadedL : MonoBehaviour
         {
             sound.Invoke();
             isLoaded = true;
-            door.Play("Close Door L", 0, 0.0f);
+            door.Play("door left close", 0, 0.0f);
             
         }
     }

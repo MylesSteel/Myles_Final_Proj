@@ -142,16 +142,16 @@ public class MoveShip : MonoBehaviour
 
   
 
-    private void RotateWheelRight()
+    private void RotateWheelRight() //wheel local angle + hand rotation equals rotation amount right.
     {
         turnWheel.Play();
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z + snapRotationAmount);
-        if (TryGetComponent<TurnInterface>(out TurnInterface dial))
-            dial.WheelTurnedRight(wheel.localEulerAngles.y);
+        //if (TryGetComponent<TurnInterface>(out TurnInterface dial))
+            //dial.WheelTurnedRight(wheel.localEulerAngles.y);
         
-        shipRbController.AddForce(Vector3.right * (speed), ForceMode.Force);
+        shipRbController.AddForce(Vector3.right * (speed), ForceMode.Force); //right rotation applies right force to Rb of world controller
         
     }
 
@@ -161,8 +161,8 @@ public class MoveShip : MonoBehaviour
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z - snapRotationAmount);
-        if (TryGetComponent<TurnInterface>(out TurnInterface dial))
-            dial.WheelTurnedLeft(wheel.localEulerAngles.y);
+       // if (TryGetComponent<TurnInterface>(out TurnInterface dial))
+           // dial.WheelTurnedLeft(wheel.localEulerAngles.y);
         
         shipRbController.AddForce(Vector3.left * (speed), ForceMode.Force);
         

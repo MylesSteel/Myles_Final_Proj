@@ -14,6 +14,7 @@ public class ClickButton : MonoBehaviour
     private float deadZone = 0.025f;                  //an extra float used to prevent the function from having a rapid on off effect. 
     private bool isPressed;                           //used to track if button has been pressed so it doesnt update each frame.
     private Vector3 startPos;                         //a position used to messure how far the button has moved from this point.
+
     private ConfigurableJoint joint;                  //joint used for button object, this refrences is for the liniar limit used on the joint.
     [SerializeField]
     public UnityEvent onPressed, onRealeased;
@@ -23,7 +24,7 @@ public class ClickButton : MonoBehaviour
 
     void Start()
     {
-        startPos = transform.localPosition;                    //.localposition is used to find the parent transform. that was it is scaled relitive to its parent.
+        startPos = transform.localPosition;                    //.localposition is used to find the parent transform. it is scaled relitive to its parent.
         joint = GetComponent<ConfigurableJoint>();
     }
 

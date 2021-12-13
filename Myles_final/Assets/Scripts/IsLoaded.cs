@@ -16,7 +16,7 @@ public class IsLoaded : MonoBehaviour
         if  (other.CompareTag("cannon ball load"))
         {
             isLoaded = true;
-            door.Play("Close Door", 0, 0.0f);
+            door.Play("door right close", 0, 0.0f);
             sound.Invoke(); 
         }
     }

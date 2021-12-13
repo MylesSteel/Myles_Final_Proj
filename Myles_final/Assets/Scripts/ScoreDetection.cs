@@ -9,6 +9,7 @@ public class ScoreDetection : MonoBehaviour
     [SerializeField]
     private UnityEvent timer;
     public int score =0;
+    [SerializeField]
     public TextMeshProUGUI scoreText;
     [SerializeField]
     public Animator enemyShip;
@@ -38,7 +39,7 @@ public class ScoreDetection : MonoBehaviour
     {
         if (score >= 3)
         {
-            enemyShip.Play("ship destroyed", 0, 0.0f);
+            enemyShip.Play("enemy entere", 0, 0.0f);
         }
     }
 }
