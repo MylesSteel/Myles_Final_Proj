@@ -39,7 +39,7 @@ public class ScoreDetection : MonoBehaviour
     {
         if (score >= 3)
         {
-            enemyShip.Play("enemy entere", 0, 0.0f);
+            enemyShip.Play("enemy enter", 0, 0.0f);
         }
     }
 }
