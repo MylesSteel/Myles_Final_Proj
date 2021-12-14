@@ -6,17 +6,14 @@ public class randomExplosions : MonoBehaviour
 {
     AudioSource explosion;
     int time;  
-    
-       
-    // Start is called before the first frame update
     void Start()
     {   
-        int randomNum = Random.Range(1, 30);
+        int randomNum = Random.Range(1, 30);              //random num gen used to start audio sources at different times in its 30 second interval. 
         time = randomNum;
         explosion = GetComponent<AudioSource>();
-        InvokeRepeating("PlayAudio", time, 30f);
+        InvokeRepeating("PlayAudio", time, 30f);         //used to keep Play audio function repeating ever 30 seconds.
     }
-    void PlayAudio()
+    void PlayAudio()                                   //randomize pitch and volume for variety.
     {
         GetComponent<AudioSource>().volume = Random.Range(0.9f, 1.5f);
         GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.3f);

@@ -15,12 +15,13 @@ public class ScoreDetection : MonoBehaviour
     public Animator enemyShip;
     [SerializeField] AudioSource enemyBoom;
 
-    private void Start()
+    private void Start()                                              // score text to UI screen
     {
         scoreText.text = "score:" + score; 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)                      //on trigger enter plays sound, adds point to score and destroys enemy if score is >= 3.
+                                                                     //Invoke is used to activate the timer screen on first collision. 
     {
         enemyBoom.Play(); 
         AddPoint();
@@ -30,7 +31,7 @@ public class ScoreDetection : MonoBehaviour
             timer.Invoke();
         }
     }    
-    public void AddPoint()
+    public void AddPoint()                                           //adds on point per collision.
     {
         score += 1;
         scoreText.text = score.ToString() + "points";

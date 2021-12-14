@@ -13,7 +13,7 @@ public class MoveShip : MonoBehaviour
     [SerializeField] private int snapRotationAmount = 10;   //increments the dummy hands will move at
     [SerializeField] private GameObject rightHandModel;     //dummy hand that attaches to wheel.    
     [SerializeField] private GameObject leftHandModel;
-    [SerializeField] bool useDummyHands;
+    [SerializeField] bool useDummyHands; //puts dummy hands on wheel and disables handle model veiw of controller 
     [SerializeField] private float angleTolerance;    //hand rotation value for wheel
     [SerializeField] AudioSource turnWheel;
 

@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlidingDoor : MonoBehaviour
+public class SlidingDoor : MonoBehaviour                  //checks to see if cannon shoots are loaded. If not the open and close animations and sounds will play on enter and exit. 
 {
-    [SerializeField] public Animator door = null;
+    [SerializeField] public Animator door = null;          
     [SerializeField] AudioSource doorSlide;
-    [SerializeField] IsLoaded myLoaded;
+    [SerializeField] IsLoaded myLoaded;          //reference to is loaded script.
 
    
     public void OnTriggerEnter(Collider other)

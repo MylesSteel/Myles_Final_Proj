@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class SlidingDoorL : MonoBehaviour
 {
-    [SerializeField] public Animator doorL = null;
-    [SerializeField] IsLoadedL myLoadedL;
+    [SerializeField] public Animator doorL = null;              //refrence to aniomator component. 
+    [SerializeField] IsLoadedL myLoadedL;                       //refrence to IsLoaded bool
     [SerializeField] AudioSource slideDoor;
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)           //on trigger enter play door open animation component clip.
+                                                         //If cannon is not loaded these animation will play.
     {
         if (other.CompareTag("Player"))
         {
@@ -20,7 +21,7 @@ public class SlidingDoorL : MonoBehaviour
         }
     }
 
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)         //on trigger exit play door close animation component clip
     {
         if (other.CompareTag("Player"))
         {

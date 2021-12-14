@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class IsLoaded : MonoBehaviour
+public class IsLoaded : MonoBehaviour              // this trigger is used to lock the cannon doors.
+                                                   // If the cannon bal is in the collider, door close animation and sound plays.
+                                                   // doors will not open until chamber is cleared.
 {
     [SerializeField]
     public bool isLoaded = false;
