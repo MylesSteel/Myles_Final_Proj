@@ -11,12 +11,12 @@ public class SlidingDoor : MonoBehaviour                  //checks to see if can
    
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))                    //looking for player 
         {
-            if (!myLoaded.isLoaded)
+            if (!myLoaded.isLoaded)                     //check isloaded script
             {
-                door.Play("door right open", 0, 0.0f);
-                doorSlide.Play();
+                door.Play("door right open", 0, 0.0f);        //animation
+                doorSlide.Play();                             
             }
         }
     }

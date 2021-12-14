@@ -43,7 +43,7 @@ public class ClickButton : MonoBehaviour
     {
         isPressed = true;                          //button has been pressed
         onPressed.Invoke();                        //onPress button begin the populated field 
-        Debug.Log("pressed");
+       // Debug.Log("pressed");
      
     }
 
@@ -51,7 +51,7 @@ public class ClickButton : MonoBehaviour
     {
         isPressed = false;
         onRealeased.Invoke();
-        Debug.Log("released");
+       // Debug.Log("released");
     }
     private float GetValue()
     {
