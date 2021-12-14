@@ -11,7 +11,6 @@ public class IsLoadedL : MonoBehaviour // this trigger is used to lock the canno
     public bool isLoaded = false;
     [SerializeField]
     public Animator door = null;
-    [SerializeField] AudioSource loadCannon;
     public UnityEvent sound;
     public void OnTriggerEnter(Collider other)
     {
@@ -19,7 +18,7 @@ public class IsLoadedL : MonoBehaviour // this trigger is used to lock the canno
         {
             sound.Invoke();
             isLoaded = true;
-            door.Play("door left close", 0, 0.0f);
+            door.Play("door left close", 0, 0.3f);
             
         }
     }

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountDownTimer : MonoBehaviour
 {
     [SerializeField] float startTime = 0f;
     [SerializeField] TextMeshProUGUI timerText;
     float timer;
+    public bool gameHasEnded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,10 @@ public class CountDownTimer : MonoBehaviour
             yield return null;
         }
         while (timer > 0);
+        if (timer <=0)
+        {
+            Invoke("EndGame", 15f);
+        }
     }
     private void FormatText()
     {
@@ -38,4 +44,11 @@ public class CountDownTimer : MonoBehaviour
         if (minutes > 0) { timerText.text += minutes + "m ";}
         if (seconds > 0) { timerText.text += seconds + "s ";}
     }
+    public void EndGame()                                               //calls scene manager to restart scene
+    {
+        gameHasEnded = true;
+        //Debug.Log("Game Over");
+        SceneManager.LoadScene("The Nautilus Ark");
+    }
 }
+

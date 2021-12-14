@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ScoreDetection : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class ScoreDetection : MonoBehaviour
     [SerializeField]
     public Animator enemyShip;
     [SerializeField] AudioSource enemyBoom;
+    public bool gameHasEnded = false;
 
     private void Start()                                              // score text to UI screen
     {
@@ -36,11 +38,17 @@ public class ScoreDetection : MonoBehaviour
         score += 1;
         scoreText.text = score.ToString() + "points";
     }
-    public void DestroyEnemy()
+    public void DestroyEnemy()                                         //on three collisions enemy ship will sink down with animation and game will restart after 15 seconds, (so the animation and sound can play, may become shorter)
     {
         if (score >= 3)
         {
             enemyShip.Play("enemy enter", 0, 0.0f);
+            Invoke("EndGame", 15f);
         }
+    }
+    public void EndGame()                                               //calls scene manager to restart scene
+    {
+        gameHasEnded = true;
+        SceneManager.LoadScene("The Nautilus Ark");
     }
 }

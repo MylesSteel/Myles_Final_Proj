@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/zSample/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/The Nautilus Ark.unity
+    guid: 7ac1b2dda95dc3842beae0c7f7da76c6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 380cef3785a459849969f3f488ded6c4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6182786cd48a63e488a881cf035a8901, type: 2}

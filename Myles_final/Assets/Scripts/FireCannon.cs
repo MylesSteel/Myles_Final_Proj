@@ -9,10 +9,12 @@ public class FireCannon : MonoBehaviour             //used to spawn, apply force
     [SerializeField]
     GameObject bulletPrefab;                     //game object for bullet
     [SerializeField]
-    Transform spawnPoint;                        //spawn location for bullet at end of gun      
+    Transform spawnPoint;                        //spawn location for bullet at end of gun
+    [SerializeField]
+    float time = 4;
     public void Delay()
     {
-        Invoke("ShootBullet", 4);
+        Invoke("ShootBullet", time);
     }
     public void ShootBullet()
     {

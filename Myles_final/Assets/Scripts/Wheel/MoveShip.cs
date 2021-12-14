@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit; 
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Events;
 
 public class MoveShip : MonoBehaviour
 {   [SerializeField]
@@ -15,8 +16,7 @@ public class MoveShip : MonoBehaviour
     [SerializeField] private GameObject leftHandModel;
     [SerializeField] bool useDummyHands; //puts dummy hands on wheel and disables handle model veiw of controller 
     [SerializeField] private float angleTolerance;    //hand rotation value for wheel
-    [SerializeField] AudioSource turnWheel;
-
+    [SerializeField] UnityEvent rightS, leftS;
     private XRBaseInteractor interactor;
     private float startAngle;     //start angle when grabbed 
     private bool requireStartAngle = true;  
@@ -144,7 +144,7 @@ public class MoveShip : MonoBehaviour
 
     private void RotateWheelRight() //wheel local angle + hand rotation equals rotation amount right.
     {
-        turnWheel.Play();
+        rightS.Invoke();
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z + snapRotationAmount);
@@ -157,7 +157,7 @@ public class MoveShip : MonoBehaviour
 
    private void RotateWheelLeft()
    {
-        turnWheel.Play();
+        leftS.Invoke();
         wheel.localEulerAngles = new Vector3(wheel.localEulerAngles.x,
                                              wheel.localEulerAngles.y,
                                              wheel.localEulerAngles.z - snapRotationAmount);

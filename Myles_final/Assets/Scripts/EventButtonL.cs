@@ -47,7 +47,7 @@ public class EventButtonL : MonoBehaviour
     {
         isPressed = true;                          //button has been pressed
         onPressed.Invoke();                        //onPress button begin the populated field 
-        Debug.Log("pressed");
+        //Debug.Log("pressed");
         myLoaded.isLoaded = false;
         leftDestroyTrig.Play("destroy left", 0, 0.0f);
     }
@@ -56,7 +56,7 @@ public class EventButtonL : MonoBehaviour
     {
         isPressed = false;
         onRealeased.Invoke();
-        Debug.Log("released");
+        //Debug.Log("released");
     }
     private float GetValue()
     {

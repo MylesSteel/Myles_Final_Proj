@@ -16,7 +16,7 @@ public class randomExplosions : MonoBehaviour
     void PlayAudio()                                   //randomize pitch and volume for variety.
     {
         GetComponent<AudioSource>().volume = Random.Range(0.9f, 1.5f);
-        GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.3f);
+        GetComponent<AudioSource>().pitch = Random.Range(0.4f, 0.6f);
         explosion.Play();
     }
 
