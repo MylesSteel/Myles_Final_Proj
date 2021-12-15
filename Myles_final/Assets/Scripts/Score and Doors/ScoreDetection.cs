@@ -18,6 +18,8 @@ public class ScoreDetection : MonoBehaviour
     public bool gameHasEnded = false;
     [SerializeField]
     ParticleSystem fire;
+    [SerializeField]
+    AudioSource enemySinking;
 
     private void Start()                                              // score text to UI screen
     {
@@ -45,6 +47,7 @@ public class ScoreDetection : MonoBehaviour
     {
         if (score >= 3)
         {
+            enemySinking.Play();
             enemyShip.Play("enemy enter", 0, 0.0f);
             Invoke("EndGame", 15f);
             fire.Play();
