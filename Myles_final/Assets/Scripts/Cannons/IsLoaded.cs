@@ -15,11 +15,11 @@ public class IsLoaded : MonoBehaviour              // this trigger is used to lo
     public UnityEvent sound;
     public void OnTriggerEnter(Collider other)
     {
-        if  (other.CompareTag("cannon ball load"))
+        if  (other.CompareTag("cannon ball load"))            //All cannon balls have this tag.
         {
             isLoaded = true;
             door.Play("door right close", 0, 0.0f);
-            sound.Invoke(); 
+            sound.Invoke();                                       //used so it can trigger multiple sound sources
         }
     }
 
