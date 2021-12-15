@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;                                      //access to scene options. such as restart.
 
 public class CountDownTimer : MonoBehaviour
 {
     [SerializeField] float startTime = 0f;
     [SerializeField] TextMeshProUGUI timerText;
+    [SerializeField] AudioSource targetLost;                             //audio source for target lost audio played with warp animation at end of timer.
     float timer;
     public bool gameHasEnded = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Timer());
+        StartCoroutine(Timer());                                          //used to prevent update function requirement
     }
 
     private IEnumerator Timer()
@@ -24,14 +25,15 @@ public class CountDownTimer : MonoBehaviour
 
         do
         {
-            timer -= Time.deltaTime;
+            timer -= Time.deltaTime;                                      //populated fields start time will be -1 by deltatime. call format text to display clean timer.
 
             FormatText();
             yield return null;
         }
         while (timer > 0);
-        if (timer <=0)
+        if (timer <=0)                                                      //plays audio source and restart game after 15 seconds.
         {
+            targetLost.Play();
             Invoke("EndGame", 15f);
         }
     }
