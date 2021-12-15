@@ -2,187 +2,13 @@ fileFormatVersion: 2
 guid: bb382f073df1fc445b77111306f62d48
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: -3444995555282217779
-    second: Sphere.018|cannon ball.009Action
-  - first:
-      74: 4417005090115839492
-    second: Sphere.018|cannon ballAction
-  - first:
-      74: 7008635778201178082
-    second: Sphere.018|CHAIN BACK Action
-  - first:
-      74: -7317062254286804954
-    second: Sphere.018|CHAIN BACK Action.001
-  - first:
-      74: 1828103841306411764
-    second: Sphere.018|CHAIN FRONTAction
-  - first:
-      74: 2431463298035729130
-    second: Sphere.018|CHAIN FRONTAction.001
-  - first:
-      74: -1136936736799402217
-    second: Sphere.018|Cube.001Action.003
-  - first:
-      74: -8868544055697657339
-    second: Sphere.018|CubeAction.002
-  - first:
-      74: 1352486506127645991
-    second: Sphere.018|CylinderAction.001
-  - first:
-      74: -1346279508014093139
-    second: Sphere.018|CylinderAction.002
-  - first:
-      74: 3388110402622160518
-    second: Sphere.018|CylinderAction.003
-  - first:
-      74: 993876983074733047
-    second: Sphere.018|CylinderAction.004
-  - first:
-      74: 3941917538385566116
-    second: Sphere.018|CylinderAction.005
-  - first:
-      74: -7295181759329302628
-    second: Sphere.018|Door RAction.001
-  - first:
-      74: -3523716060608672239
-    second: Sphere.018|Gear R 1Action.004
-  - first:
-      74: -1115670230541960714
-    second: Sphere.018|Gear R 2Action.001
-  - first:
-      74: 3300742431647880557
-    second: Sphere.018|Nautilus ArkAction.001
-  - first:
-      74: 8014941326683536486
-    second: Sphere.018|Nautilus ArkAction.002
-  - first:
-      74: -7046852945829923762
-    second: Sphere.018|Nautilus ArkAction.003
-  - first:
-      74: -5467460664047993899
-    second: Sphere.018|Nautilus ArkAction.004
-  - first:
-      74: 7003269211154610965
-    second: Sphere.018|Nautilus ArkAction.005
-  - first:
-      74: 9163420724932881242
-    second: Sphere.018|Nautilus ArkAction.006
-  - first:
-      74: -5639448731027976227
-    second: Sphere.018|Nautilus ArkAction.007
-  - first:
-      74: 3279055797578724275
-    second: Sphere.018|Nautilus ArkAction.008
-  - first:
-      74: -667767946685710602
-    second: Sphere.018|Nautilus ArkAction.009
-  - first:
-      74: 7136246666836394624
-    second: Sphere.018|Nautilus ArkAction.010
-  - first:
-      74: -4542632322020566841
-    second: Sphere.018|Nautilus ArkAction.011
-  - first:
-      74: -1514337370273023020
-    second: Sphere.018|Nautilus ArkAction.012
-  - first:
-      74: -1448426135574505450
-    second: Sphere.018|Nautilus ArkAction.013
-  - first:
-      74: 1908644596270008103
-    second: Sphere.018|Nautilus ArkAction.014
-  - first:
-      74: 4619483676788028073
-    second: Sphere.018|Nautilus ArkAction.015
-  - first:
-      74: 1515325459397361375
-    second: Sphere.018|Nautilus ArkAction.016
-  - first:
-      74: 4726831796850838334
-    second: Sphere.018|Nautilus ArkAction.017
-  - first:
-      74: 308168473635529252
-    second: Sphere.018|Nautilus ArkAction.018
-  - first:
-      74: 4389238226109459788
-    second: Sphere.018|PlaneAction.003
-  - first:
-      74: 8494770813288460803
-    second: Sphere.018|Scale Ref GuyAction
-  - first:
-      74: 3437442423138325612
-    second: Sphere.018|SphereAction.011
-  - first:
-      74: 2827483445467639966
-    second: Sphere.018|SphereAction.033
-  - first:
-      74: 5530207231602369651
-    second: Sphere.018|SphereAction.036
-  - first:
-      74: -5467464582221364599
-    second: Sphere.018|SphereAction.037
-  - first:
-      74: -8703066864795835817
-    second: Sphere.018|SphereAction.038
-  - first:
-      74: -7934787042748438531
-    second: Sphere.018|SphereAction.039
-  - first:
-      74: -6061381365593462248
-    second: Sphere.018|SphereAction.041
-  - first:
-      74: 4094654903951401270
-    second: Sphere.018|SphereAction.043
-  - first:
-      74: -3309269684198499834
-    second: Sphere.018|SphereAction.047
-  - first:
-      74: 5718744215862285621
-    second: Sphere.018|SphereAction.048
-  - first:
-      74: 1963139204426805577
-    second: Sphere.018|SphereAction.049
-  - first:
-      74: -2220621316251503436
-    second: Sphere.018|SphereAction.051
-  - first:
-      74: 2289834338049314581
-    second: Sphere.018|SphereAction.052
-  - first:
-      74: 5921156012412598268
-    second: Sphere.018|SphereAction.053
-  - first:
-      74: -7642521251843085043
-    second: Sphere.018|SphereAction.059
-  - first:
-      74: 5965150355598689181
-    second: Sphere.018|SphereAction.066
-  - first:
-      74: -6928615977594286480
-    second: Sphere.018|SphereAction.094
-  - first:
-      74: 6983328371577424599
-    second: Sphere.018|SphereAction.096
-  - first:
-      74: -4610068652449034551
-    second: Sphere.018|wheel h 1Action
-  - first:
-      74: -8726840286320997084
-    second: Sphere.018|wheel h 2Action
-  - first:
-      74: 2489336149382584082
-    second: Sphere.018|wheel h 3Action
-  - first:
-      74: -7043491528810082740
-    second: Sphere.018|wheel h 4Action
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cloud 4
-    second: {fileID: 2100000, guid: 1f6da2cf308b7be4c8f798b1acff32d5, type: 2}
+    second: {fileID: 2100000, guid: 6b6ce10dfee0f0842acb7ccb9fef33b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -252,7 +78,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []

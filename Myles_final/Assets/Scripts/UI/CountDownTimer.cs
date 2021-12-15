@@ -10,6 +10,7 @@ public class CountDownTimer : MonoBehaviour
     [SerializeField] float startTime = 0f;
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] AudioSource targetLost;                             //audio source for target lost audio played with warp animation at end of timer.
+    [SerializeField] Animator warp;                                     //warp animation.
     float timer;
     public bool gameHasEnded = false;
 
@@ -35,6 +36,7 @@ public class CountDownTimer : MonoBehaviour
         {
             targetLost.Play();
             Invoke("EndGame", 15f);
+            warp.Play("warp");
         }
     }
     private void FormatText()
