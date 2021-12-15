@@ -19,6 +19,7 @@ public class ScoreDetection : MonoBehaviour
 
     private void Start()                                              // score text to UI screen
     {
+        gameHasEnded = false;
         scoreText.text = "score:" + score; 
     }
 
