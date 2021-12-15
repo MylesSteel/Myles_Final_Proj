@@ -16,6 +16,8 @@ public class ScoreDetection : MonoBehaviour
     public Animator enemyShip;
     [SerializeField] AudioSource enemyBoom;
     public bool gameHasEnded = false;
+    [SerializeField]
+    ParticleSystem fire;
 
     private void Start()                                              // score text to UI screen
     {
@@ -45,6 +47,7 @@ public class ScoreDetection : MonoBehaviour
         {
             enemyShip.Play("enemy enter", 0, 0.0f);
             Invoke("EndGame", 15f);
+            fire.Play();
         }
     }
     public void EndGame()                                               //calls scene manager to restart scene
