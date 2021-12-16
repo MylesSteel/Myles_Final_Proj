@@ -17,7 +17,7 @@ public class EventButtonL : MonoBehaviour
     private Vector3 startPos;                         //a position used to messure how far the button has moved from this point.
     private ConfigurableJoint joint;                  //joint used for button object, this refrences is for the liniar limit used on the joint.
     [SerializeField]
-    public Animator leftDestroyTrig = null;
+    public Animator leftDestroyTrig = null, cannonLeftMove = null;
     public UnityEvent onPressed, onRealeased;
 
 
@@ -50,6 +50,7 @@ public class EventButtonL : MonoBehaviour
         //Debug.Log("pressed");
         myLoaded.isLoaded = false;
         leftDestroyTrig.Play("destroy left", 0, 0.0f);
+        cannonLeftMove.Play("cannon left move", 0, 0.0f);
     }
 
     private void Released()                               //same as pressed but at low end of threshold.
